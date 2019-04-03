@@ -1,6 +1,14 @@
 package Employee;
 
 public class Employee {
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+    
     private String name;
     private double salary;
 

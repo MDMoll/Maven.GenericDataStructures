@@ -1,6 +1,10 @@
 package Employee;
 
 public class Manager extends Employee {
+    public double getBonus() {
+        return bonus;
+    }
+    
     private double bonus;
 
     public Manager(String name, double salary) {
